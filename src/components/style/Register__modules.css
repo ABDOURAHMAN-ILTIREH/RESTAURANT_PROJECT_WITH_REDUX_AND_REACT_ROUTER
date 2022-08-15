@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conatiner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #df2020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conatiner .forms{
+    width: 430px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 5px 3px rgba(0,0,0,0.126); 
+    background-color: #fff;
+}
+.forms .wrapper{
+    display: flex;
+    width: 200%;
+    transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.form{
+    padding: 20px;
+    width: 100%;
+}
+
+.form .title{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form .title span{
+    font-size: 27px;
+    font-weight: 600;
+}
+.form .title .closer__page{
+    font-size: 23px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #333;
+}
+.form .title span::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 35px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #df2020;
+}
+.form .input__field, .buttons{
+    margin: 20px 0;
+    width: 100%;
+    height: 40px;
+    position: relative;
+}
+.form .input__field input{
+    width: 100%;
+    height: 100%;
+    padding-left: 35px;
+    border: none;
+    border-bottom: 2px solid  #ccc;
+    outline: none;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+.input__field i{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    color: gray;
+    transform: translateY(-60%);
+    font-size: 24px;
+    transition: all  0.3s ease;
+}
+.input__field input:focus{
+    border-bottom-color: #df2020;
+ }
+.input__field input:focus ~ i{
+   color: #df2020;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.checkbox .checkbox__content{
+    display: flex;
+    align-items: center;
+}
+.checkbox__content input{
+    accent-color: #df2020;
+    margin: 0 8px -2px 4px;
+}
+.checkbox .text{
+    text-decoration: none;
+    font-size: 14px;
+    color: #333;
+}
+.checkbox .text:hover{
+    text-decoration: underline;
+}
+
+.form  form  button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #df2020;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+.form form button:hover{
+    background-color: #ef0202;
+}
+
+.login-signup{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+.login-signup span{
+    text-transform: normal;
+}
+.login-signup .signup__text{
+    cursor: pointer;
+    border: none;
+    outline: 0;
+    color: blue;
+    background-color: transparent;
+    cursor: pointer;
+}
+.signup__text:hover{
+    text-decoration: underline;
+}
+.wrapper.active{
+    transform: translateX(-50%);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .login{
+        padding: 5px;
+        margin: 0;
+    }
+    .checkbox label, a{
+        font-size: 15px;
+    }
+
+} 
+    

@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: cursive;
+}
+/* .footer{
+ position: absolute;
+ bottom: 0;
+ left: 0;
+
+} */
+.logo{
+    text-align: left;
+    margin-bottom: 15px;
+}
+.logo img{
+    width: 40px;
+    object-fit: cover;
+}
+.logo h5{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.logo p{
+   margin-top: 10px;
+   line-height: 20px;
+}
+.footer{
+    width: 100%;
+    height: auto;background-color: #e4cfcf;
+}
+.Row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+
+.col{
+  
+}
+.col h5{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.content__show span{
+   font-weight: 500;
+   margin-top: 10px;
+}
+.content__show p{
+    padding: 0;
+    font-weight: 600;
+}
+
+.input__news{
+    background-color: transparent;
+    border: 2px solid #212145;
+    padding: 1px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.input__news input{
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+::placeholder{
+    color: #212145;
+}
+.input__news button{
+    padding: 5px;
+    border: 1px solid #df2020;
+    cursor: pointer;
+    background-color: #df2020;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.input__news button .Mdsend{
+    color: #fff;
+}
+.smooth__col{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.smooth__col p{
+    color: #df2020;
+    font-weight: 600;
+}
+.follow__col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.follow__col span{
+    font-weight: 600;
+    color: #df2020;
+}
+.follow__col .icons{
+    margin: 0 10px;
+    width: 20px;
+    color: #df2020;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:992px){
+    .Row{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .Row p{
+        font-size: 15px;
+    }
+    .smooth__col{
+        display: flex;
+        flex-direction: column;
+    }
+    .smooth__col p{
+        font-size: 14px;
+    }
+    
+}
+
+@media only screen  and (max-width:595px){
+    .Row{
+        grid-template-columns: 1fr;
+    }
+   
+    .input__news input{
+        padding: 8px;
+        font-size: 16px; 
+    }
+    
+    .input__news button{
+        padding: 5px;
+        padding: 7px 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

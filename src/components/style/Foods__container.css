@@ -1,0 +1,132 @@
+section{
+    width: 100%;
+    margin: 50px 0;
+}
+img{
+    width: 50px;
+}
+article .first__container{
+    display: flex;
+    align-items:flex-start;
+    justify-content: start;
+}
+.sumalery__image{
+    /* display: flex;
+    flex-direction: column; */
+}
+.sumalery__image img{
+    width: 100px;
+}
+.header__image {
+    margin: 0 100px;
+}
+.header__image img{
+  width: 350px;
+}
+.desription__foods div{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 10px;
+}
+.desription__foods div h2{
+    font-weight: bold;
+    color:  #212145;
+}
+.desription__foods div #price{
+    font-weight: 600;
+    color: #df2020;
+}
+.desription__foods div #price span{
+    font-size: 23px;
+}
+.desription__foods div #category {
+    font-size: 17px;
+}
+.desription__foods div #category span{
+    padding: 5px 10px;
+    background-color: #e59a9a;
+    border-radius: 4px;
+}
+.desription__foods button{
+    padding: 6px 15px;
+    border-radius: 3px;
+    font-size: 17px;
+    border: 2px solid #df2020;
+    background-color: #df2020;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 5px 5px 5px -5px rgba(0,0,0,0.423);
+    text-transform: capitalize;
+}
+
+
+.description__section h4{
+    margin-right: 20px;
+    color: #df2020;
+    cursor: pointer;
+}
+.simulary__container .title{
+    margin: 50px 0;
+}
+.simulary__container .title h3{
+   font-weight: 600;
+   color: #212145;
+}
+.simulary__container .article{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+
+@media only screen and (max-width:948px){
+    .header__image {
+        margin: 0 50px;
+    }
+}
+
+
+
+@media only  screen and (max-width: 768px) {
+    article .first__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sumalery__image{
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+    .sumalery__image div{
+        margin: 10px;
+    }
+    .header__image img{
+        width: 300px;
+    }
+    .simulary__container .article{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .header__image {
+        margin: 0;
+    }
+    .desription__foods{
+      text-align: left;
+      width: 100%;
+      margin:20px;
+     }
+}
+@media only screen and (max-width: 468px){
+    .simulary__container .article{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 30px;
+    }
+    .sumalery__image div{
+        margin: 0px;
+    }
+}
