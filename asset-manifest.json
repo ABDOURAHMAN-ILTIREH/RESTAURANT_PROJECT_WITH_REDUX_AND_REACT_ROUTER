@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/css/main.0a5eb1f8.css",
+    "main.js": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/js/main.e7cc8e07.js",
+    "static/media/product_4.3.png": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/media/product_4.3.2df1cebb0cf62346965c.png",
+    "static/media/hero.png": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/media/hero.e3ef74be66b8a37b4de8.png",
+    "static/media/product_3.1.jpg": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/media/product_3.1.9c207cdf68c9700b11ce.jpg",
+    "static/media/product_2.2.jpg": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/media/product_2.2.4967c9cbe3fec366a31a.jpg",
+    "static/media/product_2.3.jpg": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/media/product_2.3.3914f9eb0c0b372910ea.jpg",
+    "static/media/product_4.2.jpg": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/media/product_4.2.e82e43e0a3fc5dab999e.jpg",
+    "static/media/product_4.1.jpg": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/media/product_4.1.3c8ecc492220a3922731.jpg",
+    "static/media/product_3.3.jpg": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/media/product_3.3.f482f459be92f0045d9a.jpg",
+    "static/media/product_3.2.jpg": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/media/product_3.2.ebcb16b50e4ef0060a5e.jpg",
+    "static/media/product_2.1.jpg": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/media/product_2.1.f15385546f60c8d0f0d9.jpg",
+    "static/media/product_01.3.jpg": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/media/product_01.3.3ca2e9753f9acf20ca46.jpg",
+    "static/media/product_01.1.jpg": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/media/product_01.1.2244bc02a3d347b6bdda.jpg",
+    "static/media/product_09.jpg": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/media/product_09.d21d528bedb9088bf89f.jpg",
+    "static/media/product_01.jpg": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/media/product_01.6be97a612b580d595585.jpg",
+    "static/media/product_04.jpg": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/media/product_04.f7c5294d0481fb12cc4c.jpg",
+    "static/media/product_08.jpg": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/media/product_08.efc6c71968cf3ffe817a.jpg",
+    "static/media/bread(2).png": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/media/bread(2).dd485726262fc6f94474.png",
+    "static/media/res-logo.png": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/media/res-logo.2f9021c4ef5fe532038e.png",
+    "static/media/bread(3).png": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/media/bread(3).e4b9fdd91579778ae4cc.png",
+    "static/media/bread(1).png": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/media/bread(1).2fbb5c91c696e21efcb6.png",
+    "index.html": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/index.html",
+    "main.0a5eb1f8.css.map": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/css/main.0a5eb1f8.css.map",
+    "main.e7cc8e07.js.map": "/RESTAURANT-PROJECT-WITH-REDUX-AND-REACT-ROUTER/static/js/main.e7cc8e07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a5eb1f8.css",
+    "static/js/main.e7cc8e07.js"
+  ]
+}
