@@ -1,7 +1,7 @@
 .section{
     background-color: #df2020;
     height: auto;
-    
+    font-family: 'Raleway', sans-serif;
 }
 .container{
     display: flex;
@@ -62,10 +62,11 @@ form{
 }
 ::placeholder{
     color: gray;
+    text-transform: capitalize;
 }
 .input__row i{
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 0;
     color: #df2020;
     transform: translateY(-70%);
@@ -76,7 +77,7 @@ form{
 }
 .textarea i{
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: 0;
     color: #df2020;
     transform: translateY(-50%);
